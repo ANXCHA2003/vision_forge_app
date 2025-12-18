@@ -37,7 +37,7 @@ class AnalysisHeroCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 220,
+      height: 240,
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(18),
         gradient: const LinearGradient(
@@ -89,7 +89,7 @@ class AnalysisHeroCard extends StatelessWidget {
           ),
           Positioned.fill(
             child: Padding(
-              padding: const EdgeInsets.fromLTRB(18, 46, 18, 18),
+              padding: const EdgeInsets.fromLTRB(18, 40, 18, 16),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
